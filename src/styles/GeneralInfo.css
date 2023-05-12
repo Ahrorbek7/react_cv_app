@@ -1,0 +1,66 @@
+body {
+  background-color: black;
+}
+.container{
+  background-color: #000000;
+  color: white;
+  width: 94%;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+}
+.header__general-info {
+  position: relative;
+}
+.main-info{
+  background: #1d2226;
+  display: flex;
+  height: 10vh;
+  align-items: center;
+  width: 100%;
+  margin: 1rem 0;
+  box-shadow: -1px 1px 8px -3px rgb(73, 73, 73);
+}
+.main-info h3{
+  font-weight: normal;
+  font-size: 19px;
+  margin: 0.2rem 0;
+}
+.main-info p{
+  font-weight: normal;
+  font-size: 14px;
+}
+.main-info img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 0 0.7rem;
+}
+
+.header__introduction {
+  padding-right: 100px;
+  margin-bottom: 10px;
+  line-height: 1.7rem;
+  margin: 0 0.5rem;
+}
+
+.header__introduction--text {
+  margin-bottom: 10px;
+  width: 80%;
+}
+
+.header__contact-details {
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+  font-weight: bold;
+  display: flex;
+}
+
+.header__contact-details p {
+  margin-right: 40px;
+}
+
+.header__contact-details input {
+  margin-right: 40px;
+  padding: 5px 10px;
+}

@@ -1,0 +1,128 @@
+
+.section {
+  position: relative;
+  background-color: #1d2226;
+  margin-bottom: 40px;
+  height: auto;
+}
+
+.section__title {
+  font-weight: normal;
+  font-size: 22px;
+  transform: translate(30px,20px);
+}
+
+.edit-dad{
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.date{
+  width: 200px;
+}
+.company-position{
+  flex-direction: column;
+  display: flex;
+  width: 300px;
+  height: auto;
+}
+.company-position p {
+  font-weight: normal;
+  color: rgb(163, 163, 163);
+}
+
+.company-info{
+  width: 95%;
+  display: flex;
+}
+.upl-img{
+  width: 10%;
+  height: 100px;
+}
+#img-input{
+  border-radius: 0;
+  font-size: 0;
+  width: 90px;
+  height: 80%;
+  cursor: pointer;
+  background-image: url('../components/assest/upload-img.png');
+  background-size: 100% 100%  ;
+}
+.upl-img img{
+  width: 100px;
+  height: 100px;
+}
+.description{
+  min-width: 70vw;
+  color: white !important;
+}
+.work-images{
+  padding: 0;
+  height: 20vh;
+  width: 60vw;
+  display: flex;
+  align-items: center;
+}
+#work-img{
+  border: 1px solid rgb(77, 77, 77);
+  border-radius: 0;
+  font-size: 0;
+  width: 60%;
+  height: 15vh;
+  background: url('../components/assest/work-img.png');
+  background-size: 20% 40%;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  margin: 0 1rem;
+}
+.work-images img{
+  margin: 0 1rem;
+  width: 15vw;
+  height: 15vh;
+  border-radius: 5px;
+}
+
+.section__item {
+  padding: 2rem;
+}
+
+.section__item .bi-trash{
+  position: absolute;
+  right: 0;
+  margin: 0.3rem 0.3rem;
+}
+
+.section .btn--add{
+  font-size: 2rem;
+  position: relative;
+  left: 3rem;
+  bottom: 2rem;
+}
+hr{
+  width: 85vw;
+  height: 0.2px;
+  position: relative;
+  right: 4rem;
+  top: 4rem;
+}
+
+.section button:hover{
+  color: rgb(184, 184, 184);
+}
+
+.section__info {
+  line-height: 1.7rem;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.primary {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.skills-text {
+  width: 80%;
+}
